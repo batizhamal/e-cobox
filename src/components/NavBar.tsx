@@ -15,6 +15,12 @@ const NavBar = () => {
         <Link className="link" to="/">
           Home
         </Link>
+        <Link className="link" to="/tasks">
+          Tasks
+        </Link>
+        <Link className="link" to="/">
+          Contacts
+        </Link>
       </ul>
 
       {location.pathname !== "/login" && location.pathname !== "/register" ? (

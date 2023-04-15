@@ -1,0 +1,14 @@
+.tasks {
+  $self: &;
+
+  &--content {
+    height: 100vh;
+  }
+
+  &--empty {
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+}
