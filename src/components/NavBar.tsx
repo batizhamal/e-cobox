@@ -12,7 +12,9 @@ const NavBar = () => {
         <img className="logo" src={img} alt="logo" />
       </a>
       <ul>
-        <Link to="/">Home</Link>
+        <Link className="link" to="/">
+          Home
+        </Link>
       </ul>
 
       {location.pathname !== "/login" && location.pathname !== "/register" ? (

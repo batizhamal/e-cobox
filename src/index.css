@@ -109,6 +109,7 @@ body {
 #navbar ul {
   display: flex;
   gap: 4rem;
+  align-items: start;
 }
 
 .logo {
